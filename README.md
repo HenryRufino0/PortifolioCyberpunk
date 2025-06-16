@@ -1,10 +1,11 @@
 # Meu Portifólio Online
 
-![image](https://github.com/user-attachments/assets/bd24f7d5-762c-4df7-8ba5-be95481d13e9)
+![image](https://github.com/user-attachments/assets/b81b58a7-f84b-4ca4-9c3c-9318a3868d8a)
 
 
 
-Um projeto moderno e dinâmico desenvolvido com React e Next.js, apresentando um portfólio pessoal com temática futurista. Ideal para exibir projetos, conquistas e informações profissionais de maneira interativa e visualmente atraente.
+
+Um projeto moderno e dinâmico desenvolvido com React e Next.js, apresentando um portfólio pessoal com temática do jogo Cyberpunk 2077. Ideal para exibir projetos, conquistas e informações profissionais de maneira interativa e visualmente atraente.
 
 ## Tecnologias Utilizadas
 
@@ -16,13 +17,11 @@ Um projeto moderno e dinâmico desenvolvido com React e Next.js, apresentando um
 
 
 
-![image](https://github.com/user-attachments/assets/b8e3eb93-6319-4f73-8448-00dace2f04a6)
+![image](https://github.com/user-attachments/assets/5e695aa9-3297-4116-ba01-9df17ad8eae8)
 
-![image](https://github.com/user-attachments/assets/5cee5f18-9ce0-468c-b02b-7e26332d1e7a)
+![image](https://github.com/user-attachments/assets/47073f39-a2f4-49dc-8371-c0ad8d479195)
 
-![image](https://github.com/user-attachments/assets/d91b2b74-24e1-4455-8618-f095d522b408)
-
-![image](https://github.com/user-attachments/assets/d6c03b45-0d01-4fd9-a845-46f0be119377)
+![image](https://github.com/user-attachments/assets/69af6d88-ee07-4d15-931d-b031ad3e7abd)
 
 
 
