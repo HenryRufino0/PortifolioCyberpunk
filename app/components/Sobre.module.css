@@ -1,0 +1,118 @@
+.sobre {
+  padding: 4rem 2rem;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+  text-align: center;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sobreContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: nowrap; /* Impede quebra para baixo */
+}
+
+.texto {
+  flex: 2 1 0%;
+  min-width: 350px;
+}
+
+.texto p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.imagem {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgAnimada {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  background: none;
+}
+
+
+.skills {
+  padding: 6rem 2rem;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.titulo {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #00f2ff;
+  padding-left: 0.5rem;
+  display: inline-block;
+}
+
+@media (max-width: 900px) {
+  .sobreContainer {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+    padding: 0 1rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .texto {
+    width: 100% !important;
+    min-width: 0 !important;
+    text-align: center !important;
+    padding: 0 0.5rem !important;
+  }
+  .imagem {
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: 1rem !important;
+  }
+  .imgAnimada {
+    width: 70vw !important;
+    max-width: 220px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .sobreContainer {
+    padding: 0 0.2rem !important;
+    gap: 1rem !important;
+  }
+  .imgAnimada {
+    width: 90vw !important;
+    max-width: 180px !important;
+  }
+  .titulo {
+    font-size: 1.1rem !important;
+  }
+}
+

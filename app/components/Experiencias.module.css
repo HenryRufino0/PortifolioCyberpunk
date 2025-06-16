@@ -1,0 +1,117 @@
+.experiencias {
+  padding: 6rem 2rem;
+  animation: fadeIn 0.8s ease-in-out;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2rem;
+  display: inline-block;
+  border-left: 4px solid #00f2ff;
+  padding-left: 0.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.blocos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.bloco {
+  background: transparent;
+  border: 2px solid #00f2ff;
+  color: #00f2ff;
+  padding: 2.5rem 3.5rem;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+
+.bloco:hover,
+.ativo {
+  background-color: #00f2ff;
+  color: #000;
+}
+
+.detalhes {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.5s ease;
+  pointer-events: none;
+}
+
+.ativoDetalhe {
+  max-height: 1000px;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+  background-color: #031f22;
+  padding: 3rem;
+  margin-top: 3rem;
+  border-radius: 16px;
+  border: 2px solid #00f2ff99;
+  max-width: 1000px;
+  margin-inline: auto;
+  font-size: 1.1rem;
+  box-shadow: 0 0 20px #00f2ff22;
+  text-align: left;
+}
+
+
+.ativoDetalhe h3 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.ativoDetalhe p {
+  margin-bottom: 1.2rem;
+  line-height: 1.8;
+}
+
+.ativoDetalhe span {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.experiencias {
+  padding: 6rem 2rem;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.lista {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.lista li::marker {
+  color: #00f2ff;
+}
