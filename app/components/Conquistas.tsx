@@ -2,6 +2,7 @@
 
 import styles from './Conquistas.module.css'
 import { useState} from "react";
+import Image from 'next/image';
 
 const conquistas = [
   {src:'/conquistas-imagens/diploma.png',alt:'Diploma Univap'},
@@ -16,7 +17,6 @@ const conquistas = [
   { src:'/conquistas-imagens/data-science.PNG', alt:'Data Science'},
   { src: '/conquistas-imagens/matlab.PNG', alt:'Matlab'},
   { src: '/conquistas-imagens/jornada-python.png',alt:'Jornada Python'},
-
 ];
 
 export default function Conquistas() {
@@ -27,10 +27,12 @@ export default function Conquistas() {
       <h2 className={styles.titulo}>🏆 Conquistas</h2>
       <div className={styles.grid}>
         {conquistas.map((c, i) => (
-          <img
+          <Image
             key={i}
             src={c.src}
             alt={c.alt}
+            width={200}
+            height={200}
             onClick={() => setImgSelecionada(c.src)}
             className={styles.thumb}
           />
@@ -39,7 +41,13 @@ export default function Conquistas() {
 
       {imgSelecionada && (
         <div className={styles.modal} onClick={() => setImgSelecionada(null)}>
-          <img src={imgSelecionada} className={styles.ampliada} />
+          <Image 
+            src={imgSelecionada} 
+            alt="Imagem ampliada"
+            width={800}
+            height={600}
+            className={styles.ampliada} 
+          />
         </div>
       )}
     </section>

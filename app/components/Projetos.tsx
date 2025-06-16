@@ -3,6 +3,7 @@
 import styles from './Projetos.module.css';
 import { useEffect, useRef, useState } from 'react';
 import { FaEye } from 'react-icons/fa';
+import Image from 'next/image';
 
 const projetos = [
 
@@ -117,16 +118,20 @@ export default function Projetos({ sectionRef }: ProjetosProps) {
         {projetos.map((proj, index) => (
           <div className={styles.card} key={index}>
             <div className={styles.imgWrapper}>
-              <img src={proj.imagem} alt={proj.titulo} />
+              <Image 
+                src={proj.imagem} 
+                alt={proj.titulo}
+                width={400}
+                height={300}
+              />
               <a
-  href={proj.link}
-  target="_blank"
-  rel="noopener noreferrer"
-  className={styles.overlay}
->
-  <FaEye size={32} color="#fff" />
-</a>
-
+                href={proj.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.overlay}
+              >
+                <FaEye size={32} color="#fff" />
+              </a>
             </div>
             <div className={styles.cardTexto}>
               <h3>{proj.titulo}</h3>

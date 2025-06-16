@@ -14,7 +14,7 @@ const sections = [
 ];
 
 export default function Home() {
-  const [dark] = useState(true);
+  const dark = true;
   const [openExperience, setOpenExperience] = useState<string | null>(null);
   const sectionRefs = {
     home: useRef<HTMLElement | null>(null),
