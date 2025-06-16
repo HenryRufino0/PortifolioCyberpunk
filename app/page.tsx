@@ -1,14 +1,8 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import Hero from './components/Hero';
-import Sobre from './components/Sobre';
-import Experiencias from './components/Experiencias';
-import Skills from './components/Skills';
-import Contato from './components/Contato';
 import styles from './page.module.css';
 import Projetos from './components/Projetos';
-import Conquistas from './components/Conquistas';
 import Image from 'next/image';
 
 const sections = [
@@ -20,11 +14,11 @@ const sections = [
 ];
 
 export default function Home() {
-  const [dark, setDark] = useState(true);
+  const [dark] = useState(true);
   const [openExperience, setOpenExperience] = useState<string | null>(null);
   const sectionRefs = {
     home: useRef<HTMLElement | null>(null),
-    projetos: useRef<HTMLElement | null>(null),
+    projetos: useRef<HTMLDivElement | null>(null),
     about: useRef<HTMLElement | null>(null),
     skills: useRef<HTMLElement | null>(null),
     contact: useRef<HTMLElement | null>(null),
