@@ -11,7 +11,7 @@ const projetos = [
     titulo: 'Este Portifólio',
     descricao: 'Portifolio online',
     imagem: '/projetos-images/portifolio.png',
-    link:'https://portifolio-git-main-henry-rufinos-projects.vercel.app'
+    link:'https://portifolio-cyberpunk.vercel.app'
   },
 
   {
