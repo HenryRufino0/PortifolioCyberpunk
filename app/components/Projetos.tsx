@@ -83,37 +83,13 @@ interface ProjetosProps {
 export default function Projetos({ sectionRef }: ProjetosProps) {
   const innerRef = useRef<HTMLDivElement>(null);
   const finalRef = (sectionRef || innerRef) as React.RefObject<HTMLDivElement>;
-  const [visible, setVisible] = useState(false);
-
-  // Sempre visível em telas pequenas
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth <= 900) {
-        setVisible(true);
-      }
-    };
-    window.addEventListener('resize', handleResize);
-    handleResize();
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
-  useEffect(() => {
-    if (window.innerWidth <= 900) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => setVisible(entry.isIntersecting),
-      { threshold: 0.3 }
-    );
-    if (finalRef.current) observer.observe(finalRef.current);
-    return () => observer.disconnect();
-  }, [finalRef]);
 
   return (
     <section
       id="projetos"
       ref={finalRef}
-      className={`${styles.projetos} ${visible ? styles.visible : ''}`}
+      className={styles.projetos}
     >
-      <h2 className={styles.titulo}>Projetos</h2>
       <div className={styles.grid}>
         {projetos.map((proj, index) => (
           <div className={styles.card} key={index}>
