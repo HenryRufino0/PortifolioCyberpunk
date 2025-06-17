@@ -1,7 +1,7 @@
 'use client';
 
 import styles from './Projetos.module.css';
-import { useEffect, useRef, useState } from 'react';
+import { useRef } from 'react';
 import { FaEye } from 'react-icons/fa';
 import Image from 'next/image';
 
