@@ -442,12 +442,14 @@
   justify-content: center;
   align-items: center;
   background: none;
+  max-width: 1200px;
+  margin: 0 auto 3rem auto;
 }
 .aboutContent {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
-  max-width: 900px;
+  gap: 5rem;
+  max-width: 1100px;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -469,6 +471,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.imgAnimada {
+  width: 340px !important;
+  height: auto !important;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 .profileImg {
   border-radius: 50%;
