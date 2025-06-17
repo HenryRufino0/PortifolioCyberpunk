@@ -778,7 +778,7 @@
 
 .navLink {
   color: #111217;
-  background: #fff200;
+  background: #ffe600;
   border: none;
   text-decoration: none;
   font-weight: 700;
@@ -793,10 +793,10 @@
 }
 
 .navLink:hover, .navLink:focus {
-  color: #ffe600;
+  color: #fff;
   background: #111217;
   box-shadow: 0 0 16px #ffe600, 0 0 32px #ffe600;
-  text-shadow: 0 0 8px #ffe600;
+  text-shadow: none;
 }
 
 .socialButtons {
