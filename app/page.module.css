@@ -136,7 +136,7 @@
 .main {
   min-height: 100vh;
   padding: 2rem;
-  background: linear-gradient(135deg, var(--cyber-black) 0%, var(--cyber-gray) 60%, var(--cyber-blue-dark) 100%);
+  background: linear-gradient(135deg, var(--cyber-black) 0%, var(--cyber-gray) 60%, var(--cyber-blue) 100%);
   position: relative;
   overflow: hidden;
   padding-top: 5.5rem;
@@ -625,24 +625,24 @@
   max-width: 900px;
 }
 .skillsList li {
-  background: rgba(10, 10, 30, 0.85);
-  border: 1.5px solid var(--cyber-blue-dark);
-  color: var(--cyber-white);
+  background: rgba(17, 18, 23, 0.92);
+  border: 1.5px solid var(--cyber-cyan);
+  color: var(--cyber-yellow);
   border-radius: 20px;
   padding: 0.7rem 1.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  text-shadow: 0 0 8px var(--cyber-blue-dark);
-  box-shadow: 0 0 10px var(--cyber-blue-dark);
+  text-shadow: 0 0 8px var(--cyber-cyan);
+  box-shadow: 0 0 10px var(--cyber-cyan);
   transition: background 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
 }
 .skillsList li:hover {
-  background: linear-gradient(90deg, #66e0ff 0%, var(--cyber-blue) 100%);
-  color: var(--cyber-white);
-  border-color: #66e0ff;
-  box-shadow: 0 0 18px #66e0ff, 0 0 8px var(--cyber-blue);
-  text-shadow: 0 0 8px #66e0ff;
+  background: linear-gradient(90deg, var(--cyber-yellow) 0%, var(--cyber-cyan) 100%);
+  color: var(--cyber-black);
+  border-color: var(--cyber-yellow);
+  box-shadow: 0 0 18px var(--cyber-yellow), 0 0 8px var(--cyber-cyan);
+  text-shadow: 0 0 8px var(--cyber-yellow);
 }
 
 /***** CONTACT SECTION *****/
@@ -732,11 +732,11 @@
   justify-content: space-between;
   gap: 2rem;
   padding: 1.2rem 3vw;
-  background: linear-gradient(90deg, rgba(0,191,255,0.18) 0%, rgba(35,39,47,0.18) 100%);
+  background: linear-gradient(90deg, rgba(255,230,0,0.13) 0%, rgba(0,255,247,0.10) 100%);
   border-radius: 0 0 24px 24px;
   border: none;
-  border-bottom: 2px solid var(--cyber-blue);
-  box-shadow: 0 4px 32px 0 var(--cyber-blue-dark), 0 2px 8px 0 var(--cyber-gray);
+  border-bottom: 3px solid var(--cyber-yellow);
+  box-shadow: 0 4px 32px 0 var(--cyber-cyan), 0 2px 8px 0 var(--cyber-yellow);
   z-index: 1000;
   backdrop-filter: blur(18px);
   animation: neonGlow 2s infinite;
@@ -745,9 +745,9 @@
 .navLogo {
   font-size: 2.2rem;
   font-weight: 900;
-  color: var(--cyber-white);
+  color: var(--cyber-yellow);
   letter-spacing: 0.18em;
-  text-shadow: 0 0 18px var(--cyber-blue), 0 0 40px var(--cyber-blue-dark);
+  text-shadow: 0 0 18px var(--cyber-yellow), 0 0 40px var(--cyber-cyan);
   font-family: 'Orbitron', 'Arial', sans-serif;
   margin-bottom: 0;
   align-self: center;
@@ -761,15 +761,15 @@
 }
 
 .navLink {
-  color: var(--cyber-white);
-  background: linear-gradient(90deg, var(--cyber-blue) 0%, var(--cyber-gray) 100%);
-  border: 2px solid var(--cyber-blue-dark);
+  color: var(--cyber-black);
+  background: linear-gradient(90deg, var(--cyber-yellow) 0%, var(--cyber-cyan) 100%);
+  border: 2px solid var(--cyber-cyan);
   text-decoration: none;
   font-weight: 700;
   font-size: 1.1rem;
   padding: 0.7rem 2.2rem;
   border-radius: 12px;
-  box-shadow: 0 0 12px var(--cyber-blue), 0 0 18px var(--cyber-blue-dark);
+  box-shadow: 0 0 12px var(--cyber-cyan), 0 0 18px var(--cyber-yellow);
   transition: all 0.3s cubic-bezier(.4,2,.6,1);
   position: relative;
   cursor: pointer;
@@ -777,11 +777,11 @@
 }
 
 .navLink:hover, .navLink:focus {
-  color: var(--cyber-white);
-  background: linear-gradient(90deg, #66e0ff 0%, var(--cyber-blue) 100%);
-  border-color: #66e0ff;
-  box-shadow: 0 0 24px #66e0ff, 0 0 32px var(--cyber-blue);
-  text-shadow: 0 0 12px #66e0ff;
+  color: var(--cyber-black);
+  background: linear-gradient(90deg, var(--cyber-cyan) 0%, var(--cyber-yellow) 100%);
+  border-color: var(--cyber-yellow);
+  box-shadow: 0 0 24px var(--cyber-yellow), 0 0 32px var(--cyber-cyan);
+  text-shadow: 0 0 12px var(--cyber-yellow);
 }
 
 .socialButtons {
