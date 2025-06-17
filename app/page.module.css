@@ -626,20 +626,23 @@
 }
 .skillsList li {
   background: rgba(10, 10, 30, 0.85);
-  border: 1.5px solid var(--cyber-yellow);
-  color: var(--cyber-yellow);
+  border: 1.5px solid var(--cyber-blue-dark);
+  color: var(--cyber-white);
   border-radius: 20px;
   padding: 0.7rem 1.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  text-shadow: 0 0 8px var(--cyber-yellow);
-  box-shadow: 0 0 10px var(--cyber-yellow);
-  transition: background 0.2s, color 0.2s;
+  text-shadow: 0 0 8px var(--cyber-blue-dark);
+  box-shadow: 0 0 10px var(--cyber-blue-dark);
+  transition: background 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
 }
 .skillsList li:hover {
-  background: var(--cyber-yellow);
-  color: var(--cyber-black);
+  background: linear-gradient(90deg, #66e0ff 0%, var(--cyber-blue) 100%);
+  color: var(--cyber-white);
+  border-color: #66e0ff;
+  box-shadow: 0 0 18px #66e0ff, 0 0 8px var(--cyber-blue);
+  text-shadow: 0 0 8px #66e0ff;
 }
 
 /***** CONTACT SECTION *****/
