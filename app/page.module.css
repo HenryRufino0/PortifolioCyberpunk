@@ -1068,6 +1068,74 @@
     text-align: center;
     white-space: nowrap;
   }
+  .heroSection {
+    padding: 2.2rem 0.2rem 1.2rem 0.2rem;
+    min-height: unset;
+  }
+  .heroContent {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.2rem !important;
+    width: 100% !important;
+  }
+  .heroPhotoBlock {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 1rem !important;
+  }
+  .profileImg {
+    width: 48vw !important;
+    max-width: 160px !important;
+    height: auto !important;
+    margin: 0 auto 0.7rem auto !important;
+    display: block !important;
+  }
+  .heroTextBlock {
+    max-width: 95vw !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.7rem !important;
+  }
+  .heroTitle {
+    font-size: 1.2rem !important;
+    line-height: 1.1 !important;
+    margin-bottom: 0.5rem !important;
+    text-align: center !important;
+    word-break: break-word !important;
+  }
+  .heroSubtitle {
+    font-size: 1rem !important;
+    margin-bottom: 0.3rem !important;
+    text-align: center !important;
+  }
+  .heroTagline {
+    font-size: 0.9rem !important;
+    max-width: 95vw !important;
+    margin-bottom: 0.7rem !important;
+    text-align: center !important;
+    word-break: break-word !important;
+    padding: 0 0.2rem !important;
+  }
+  .socialButtons {
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    width: 100% !important;
+    flex-wrap: nowrap !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0 !important;
+  }
+  .ctaButton {
+    font-size: 0.95rem !important;
+    padding: 0.5rem 0.8rem !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+  }
 }
 
 .main, .heroTitle, .heroSubtitle, .heroTagline, .aboutText, .experienceCard, .projectTitle, .projectDesc, .skillsList, .contactText, .ctaButton, .detailsBox, .titulo {
