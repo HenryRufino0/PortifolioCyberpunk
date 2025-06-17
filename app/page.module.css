@@ -742,15 +742,15 @@
   left: 0;
   right: 0;
   bottom: -1px;
-  height: 40px;
+  height: 56px;
   width: 100%;
   background: transparent;
   z-index: 2;
   pointer-events: none;
-  /* SVG serrilhado maior e aleatório */
-  background-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="40" viewBox="0 0 1000 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0 H1000 V20 L970 40 L950 25 L930 40 L900 30 L880 40 L860 22 L840 40 L810 28 L790 40 L770 20 L750 40 L730 35 L710 40 L690 25 L670 40 L650 30 L630 40 L610 22 L590 40 L570 28 L550 40 L530 20 L510 40 L490 35 L470 40 L450 25 L430 40 L410 30 L390 40 L370 22 L350 40 L330 28 L310 40 L290 20 L270 40 L250 35 L230 40 L210 25 L190 40 L170 30 L150 40 L130 22 L110 40 L90 28 L70 40 L50 20 L30 40 L10 35 L0 20 Z" fill="%23ffe600"/></svg>');
+  /* SVG serrilhado com cortes grandes e espaçados */
+  background-image: url('data:image/svg+xml;utf8,<svg width="1200" height="56" viewBox="0 0 1200 56" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0 H1200 V28 L1150 56 L1100 28 L1050 56 L950 28 L900 56 L850 28 L800 56 L700 28 L650 56 L600 28 L500 56 L400 28 L350 56 L300 28 L200 56 L100 28 L50 56 L0 28 Z" fill="%23ffe600"/></svg>');
   background-repeat: repeat-x;
-  background-size: 1000px 40px;
+  background-size: 1200px 56px;
 }
 
 .navLogo {
