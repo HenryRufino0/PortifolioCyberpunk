@@ -745,12 +745,17 @@
   height: 56px;
   width: 100%;
   background: transparent;
-  z-index: 2;
+  z-index: 0;
   pointer-events: none;
   /* SVG serrilhado com cortes grandes e espaçados */
   background-image: url('data:image/svg+xml;utf8,<svg width="1200" height="56" viewBox="0 0 1200 56" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0 H1200 V28 L1150 56 L1100 28 L1050 56 L950 28 L900 56 L850 28 L800 56 L700 28 L650 56 L600 28 L500 56 L400 28 L350 56 L300 28 L200 56 L100 28 L50 56 L0 28 Z" fill="%23ffe600"/></svg>');
   background-repeat: repeat-x;
   background-size: 1200px 56px;
+}
+
+.navLogo, .navLinks {
+  position: relative;
+  z-index: 1;
 }
 
 .navLogo {
