@@ -253,7 +253,7 @@ export default function Home() {
 
       {/* Footer */}
     <footer className={styles.footer}>
-      <p>© {new Date().getFullYear()} Henry Lírio Rufino. Todos os direitos reservados.</p>
+      <p>© {new Date().getFullYear()} Henry Lírio Rufino.</p>
       <p>Portifolio desenvolvido usando React + Next.js</p>
     </footer>
     </>
