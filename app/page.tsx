@@ -175,8 +175,8 @@ export default function Home() {
         </section>
 
         {/* Projects Section */}
-        <section ref={sectionRefs.projetos} id="projetos">
-          <h2 className={styles.titulo}>💻 Projetos</h2>
+        <section ref={sectionRefs.projetos} id="projetos" className={styles.projects}>
+          <h2 className={styles.titulo}>Projetos</h2>
           <Projetos />
         </section>
 
