@@ -2,9 +2,15 @@
 
 :root {
   --cyber-blue: #00f2ff;
+  --cyber-pink: #ff00ff;
   --cyber-yellow: #ffd600;
+  --cyber-purple: #9d00ff;
   --cyber-black: #0a0a0f;
+  --cyber-dark: #1a1a2e;
   --cyber-white: #fff;
+  --cyber-neon-glow: 0 0 10px var(--cyber-blue),
+                    0 0 20px var(--cyber-blue),
+                    0 0 30px var(--cyber-blue);
 }
 
 * {
@@ -20,6 +26,7 @@ body {
   font-family: 'Exo 2', Arial, sans-serif;
   background-color: var(--cyber-black);
   color: var(--cyber-white);
+  background: linear-gradient(135deg, var(--cyber-black) 0%, var(--cyber-dark) 100%);
 }
 
 @keyframes neonGlow {
@@ -29,9 +36,9 @@ body {
                  0 0 21px var(--cyber-blue);
   }
   50% {
-    text-shadow: 0 0 7px var(--cyber-yellow),
-                 0 0 10px var(--cyber-yellow),
-                 0 0 21px var(--cyber-yellow);
+    text-shadow: 0 0 7px var(--cyber-pink),
+                 0 0 10px var(--cyber-pink),
+                 0 0 21px var(--cyber-pink);
   }
   100% {
     text-shadow: 0 0 7px var(--cyber-blue),
@@ -42,6 +49,7 @@ body {
 
 .neon-text {
   animation: neonGlow 2s infinite;
+  color: var(--cyber-white);
 }
 
 @keyframes scanline {
@@ -62,10 +70,42 @@ body {
   background: linear-gradient(
     to bottom,
     transparent 50%,
-    rgba(0, 242, 255, 0.1) 50%
+    rgba(0, 242, 255, 0.05) 50%
   );
   background-size: 100% 4px;
   pointer-events: none;
   animation: scanline 8s linear infinite;
   z-index: 9999;
+}
+
+@keyframes glitchEffect {
+  0% {
+    clip-path: inset(40% 0 61% 0);
+    transform: translate(-20px, -10px);
+  }
+  20% {
+    clip-path: inset(92% 0 1% 0);
+    transform: translate(20px, 10px);
+  }
+  40% {
+    clip-path: inset(43% 0 1% 0);
+    transform: translate(-20px, 10px);
+  }
+  60% {
+    clip-path: inset(25% 0 58% 0);
+    transform: translate(20px, -10px);
+  }
+  80% {
+    clip-path: inset(54% 0 7% 0);
+    transform: translate(-20px, 10px);
+  }
+  100% {
+    clip-path: inset(58% 0 43% 0);
+    transform: translate(20px, -10px);
+  }
+}
+
+.glitch-effect {
+  animation: glitchEffect 2s infinite;
+  position: relative;
 }

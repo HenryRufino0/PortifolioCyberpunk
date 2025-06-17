@@ -4,8 +4,6 @@
   transform: translateY(40px);
   transition: all 0.8s ease;
   text-align: center;
-  width: 100%;
-  overflow-x: visible;
 }
 
 .visible {
@@ -15,108 +13,43 @@
 
 .titulo {
   font-size: 2rem;
-  display: block;
+  display: inline-block;
+  border-left: 4px solid #00f2ff;
+  padding-left: 0.5rem;
   margin-bottom: 3rem;
   text-align: center;
-  color: #00f2ff;
-  font-family: 'Exo 2', Arial, sans-serif;
-  font-weight: 900;
-  text-shadow: none;
-  padding-left: 0;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
-  max-width: 1800px;
+  max-width: 1100px;
   margin: 0 auto;
-  width: 100%;
-}
-
-@media (max-width: 1200px) {
-  .projetos {
-    padding: 3rem 1rem;
-  }
-  .grid {
-    gap: 1.2rem;
-  }
-}
-
-@media (max-width: 900px) {
-  .projetos {
-    padding: 2rem 0.5rem;
-  }
-  .grid {
-    gap: 0.8rem;
-  }
-  .card {
-    padding: 1.2rem 0.5rem 1rem 0.5rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .projetos {
-    padding: 1rem 0.1rem;
-    width: 100%;
-  }
-  .grid {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
-    width: 100%;
-  }
-  .card {
-    padding: 0.7rem 0.2rem 0.7rem 0.2rem;
-    min-width: 0;
-    max-width: 98vw;
-    margin: 0 auto;
-  }
-  .imgWrapper {
-    height: 120px;
-  }
-  .titulo {
-    font-size: 1.1rem;
-  }
-  .card h3 {
-    font-size: 1rem;
-  }
-  .card p {
-    font-size: 0.95rem;
-  }
 }
 
 .card {
-  background: rgba(10, 10, 30, 0.85);
-  border: 2.5px solid #00f2ff;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #00f2ff44;
   border-radius: 16px;
-  box-shadow: 0 0 18px #00f2ff, 0 0 30px #ffd60044;
-  padding: 2rem 1rem 1.5rem 1rem;
-  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
-  position: relative;
-  overflow: hidden;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 0 40px #00f2ff, 0 0 80px #ffd600;
-  border-color: #ffd600;
+  transform: translateY(-6px);
+  box-shadow: 0 0 16px #00f2ff55;
 }
 
 .card h3 {
-  margin-top: 1.2rem;
-  margin-bottom: 0.7rem;
-  font-size: 1.25rem;
-  color: #ffd600;
-  text-shadow: 0 0 10px #ffd600, 0 0 30px #00f2ff;
-  letter-spacing: 0.04em;
-  font-family: 'Exo 2', 'Audiowide', 'Orbitron', sans-serif;
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  color: #00f2ff;
 }
 
 .card p {
-  color: #fff;
-  font-size: 1.05rem;
-  line-height: 1.5;
-  text-shadow: 0 0 6px #00f2ff;
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
 
 .card a {
@@ -125,13 +58,12 @@
   font-weight: bold;
 }
 
+
 .imgWrapper {
   position: relative;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 10px;
   height: 200px;
-  box-shadow: 0 0 18px #00f2ff99;
-  border: 2px solid #00f2ff;
 }
 
 .imgWrapper img {
@@ -139,13 +71,11 @@
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.3s;
-  filter: brightness(0.92) saturate(1.2);
+  transition: transform 0.3s ease;
 }
 
 .card:hover img {
-  transform: scale(1.07);
-  filter: brightness(1.05) saturate(1.4);
+  transform: scale(1.05);
 }
 
 .overlay {
@@ -154,50 +84,19 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 242, 255, 0.10);
-  backdrop-filter: blur(2.5px) brightness(1.1);
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.3s, background 0.3s;
-  box-shadow: 0 0 30px #00f2ff99;
+  transition: opacity 0.3s ease;
 }
 
 .card:hover .overlay {
   opacity: 1;
-  background: rgba(10, 10, 30, 0.82);
 }
 
-.overlay svg {
-  filter: drop-shadow(0 0 8px #00f2ff) drop-shadow(0 0 16px #ffd600);
-}
 
 .cardTexto {
   margin-top: 1rem;
 }
-
-.overlay a, .overlay button, .cardTexto a {
-  display: inline-block;
-  background: #00f2ff;
-  color: #0a0a0a;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 20px;
-  font-size: 1rem;
-  box-shadow: 0 0 12px #00f2ff, 0 0 24px #ffd600;
-  margin-top: 0.5rem;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-}
-
-.overlay a:hover, .overlay button:hover, .cardTexto a:hover {
-  background: #ffd600;
-  color: #0a0a0a;
-  box-shadow: 0 0 24px #ffd600, 0 0 40px #00f2ff;
-}
-
-
