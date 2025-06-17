@@ -777,7 +777,7 @@
 }
 
 .navLink {
-  color: #111217;
+  color: #111217 !important;
   background: #ffe600;
   border: none;
   text-decoration: none;
@@ -793,7 +793,7 @@
 }
 
 .navLink:hover, .navLink:focus {
-  color: #fff;
+  color: #fff !important;
   background: #111217;
   box-shadow: 0 0 16px #ffe600, 0 0 32px #ffe600;
   text-shadow: none;
