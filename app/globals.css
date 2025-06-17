@@ -2,15 +2,14 @@
 
 :root {
   --cyber-blue: #00fff7;
-  --cyber-pink: #ff00ea;
+  --cyber-green: #39ff14;
   --cyber-yellow: #ffe600;
-  --cyber-purple: #a259ff;
   --cyber-black: #0a0a12;
   --cyber-dark: #18182a;
   --cyber-white: #f4faff;
   --cyber-neon-glow: 0 0 10px var(--cyber-blue),
-                    0 0 20px var(--cyber-pink),
-                    0 0 30px var(--cyber-purple);
+                    0 0 20px var(--cyber-green),
+                    0 0 30px var(--cyber-yellow);
 }
 
 * {
@@ -32,18 +31,18 @@ body {
 @keyframes neonGlow {
   0% {
     text-shadow: 0 0 7px var(--cyber-blue),
-                 0 0 10px var(--cyber-pink),
-                 0 0 21px var(--cyber-purple);
+                 0 0 10px var(--cyber-green),
+                 0 0 21px var(--cyber-yellow);
   }
   50% {
-    text-shadow: 0 0 7px var(--cyber-pink),
-                 0 0 10px var(--cyber-pink),
-                 0 0 21px var(--cyber-pink);
+    text-shadow: 0 0 7px var(--cyber-green),
+                 0 0 10px var(--cyber-yellow),
+                 0 0 21px var(--cyber-blue);
   }
   100% {
     text-shadow: 0 0 7px var(--cyber-blue),
-                 0 0 10px var(--cyber-pink),
-                 0 0 21px var(--cyber-purple);
+                 0 0 10px var(--cyber-green),
+                 0 0 21px var(--cyber-yellow);
   }
 }
 

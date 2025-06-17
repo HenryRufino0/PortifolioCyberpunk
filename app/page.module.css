@@ -136,7 +136,7 @@
 .main {
   min-height: 100vh;
   padding: 2rem;
-  background: linear-gradient(135deg, var(--cyber-black) 0%, var(--cyber-purple) 60%, var(--cyber-blue) 100%);
+  background: linear-gradient(135deg, var(--cyber-black) 0%, var(--cyber-green) 60%, var(--cyber-blue) 100%);
   position: relative;
   overflow: hidden;
   padding-top: 5.5rem;
@@ -729,11 +729,11 @@
   justify-content: space-between;
   gap: 2rem;
   padding: 1.2rem 3vw;
-  background: linear-gradient(90deg, rgba(0,255,247,0.18) 0%, rgba(255,0,234,0.18) 100%);
+  background: linear-gradient(90deg, rgba(0,255,247,0.18) 0%, rgba(57,255,20,0.18) 100%);
   border-radius: 0 0 24px 24px;
   border: none;
   border-bottom: 2px solid var(--cyber-blue);
-  box-shadow: 0 4px 32px 0 var(--cyber-pink), 0 2px 8px 0 var(--cyber-blue);
+  box-shadow: 0 4px 32px 0 var(--cyber-green), 0 2px 8px 0 var(--cyber-blue);
   z-index: 1000;
   backdrop-filter: blur(18px);
   animation: neonGlow 2s infinite;
@@ -759,14 +759,14 @@
 
 .navLink {
   color: var(--cyber-white);
-  background: linear-gradient(90deg, var(--cyber-blue) 0%, var(--cyber-pink) 100%);
-  border: 2px solid var(--cyber-purple);
+  background: linear-gradient(90deg, var(--cyber-blue) 0%, var(--cyber-green) 100%);
+  border: 2px solid var(--cyber-green);
   text-decoration: none;
   font-weight: 700;
   font-size: 1.1rem;
   padding: 0.7rem 2.2rem;
   border-radius: 12px;
-  box-shadow: 0 0 12px var(--cyber-blue), 0 0 18px var(--cyber-pink);
+  box-shadow: 0 0 12px var(--cyber-blue), 0 0 18px var(--cyber-green);
   transition: all 0.3s cubic-bezier(.4,2,.6,1);
   position: relative;
   cursor: pointer;
@@ -775,9 +775,9 @@
 
 .navLink:hover, .navLink:focus {
   color: var(--cyber-yellow);
-  background: linear-gradient(90deg, var(--cyber-pink) 0%, var(--cyber-blue) 100%);
+  background: linear-gradient(90deg, var(--cyber-green) 0%, var(--cyber-blue) 100%);
   border-color: var(--cyber-yellow);
-  box-shadow: 0 0 24px var(--cyber-yellow), 0 0 32px var(--cyber-pink);
+  box-shadow: 0 0 24px var(--cyber-yellow), 0 0 32px var(--cyber-green);
   text-shadow: 0 0 12px var(--cyber-yellow);
 }
 
