@@ -52,12 +52,12 @@ export default function Home() {
           <div className={styles.heroContent}>
             <div className={styles.heroTextBlock}>
               <h1 className={`${styles.heroTitle} neon-text glitch`} data-text="HENRY LÍRIO RUFINO">
-                HENRY LÍRIO RUFINO
+                HENRY RUFINO
               </h1>
               <h2 className={styles.heroSubtitle}>Engenheiro de Software & Cyberpunk Developer</h2>
               <p className={styles.heroTagline}>
-                Desenvolvedor Back-End e Front-End com experiência em Python, React, SQL, PHP, JavaScript, DevOps<br />
-                e foco total em UX moderno e automações inteligentes.
+                Desenvolvedor Back-End e Front-End com experiência em Python, React, SQL, PHP, JavaScript, DevOps, <br />
+                técnicas de Machine Learning e foco total em UX moderno e automações inteligentes.
               </p>
               <div className={styles.socialButtons}>
                 <a href="https://www.linkedin.com/in/henryrufino/" target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>
@@ -93,7 +93,7 @@ export default function Home() {
               <h2 className={styles.titulo}>Sobre Mim</h2>
               <p>
                 Sou apaixonado por tecnologia desde cedo. Me especializei em desenvolvimento Back-End e Front-End, com foco em soluções que otimizam tempo e melhoram a experiência do usuário. Trabalhei com automações, APIs, visualizações de dados e tenho forte atuação em backend com Python e frontend com JavaScript.<br /><br />
-                Também atuo com DevOps, banco de dados e metodologias ágeis. Gosto de aprender e aplicar tecnologias novas, sempre buscando eficiência e resultados.
+                Também atuo com DevOps, banco de dados e metodologias ágeis. Além ter conehcimento e aplicação em técnincas de Machine Learning. Gosto de aprender e aplicar tecnologias novas, sempre buscando eficiência e resultados
               </p>
             </div>
             <div className={styles.aboutPhoto}>
@@ -194,6 +194,7 @@ export default function Home() {
             <li>Power BI</li>
             <li>DAX</li>
             <li>Git</li>
+            <li>Microsoft Office</li>
             <li>Excel</li>
             <li>React</li>
             <li>Next.JS</li>
@@ -202,6 +203,7 @@ export default function Home() {
             <li>AWS EC2</li>
             <li>Scrum</li>
             <li>Figma</li>
+            <li>ML</li>
           </ul>
         </section>
 
