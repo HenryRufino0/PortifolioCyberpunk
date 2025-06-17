@@ -742,7 +742,7 @@
 .navLogo {
   font-size: 2.2rem;
   font-weight: 900;
-  color: var(--cyber-blue);
+  color: var(--cyber-white);
   letter-spacing: 0.18em;
   text-shadow: 0 0 18px var(--cyber-blue), 0 0 40px var(--cyber-blue-dark);
   font-family: 'Orbitron', 'Arial', sans-serif;
@@ -774,11 +774,11 @@
 }
 
 .navLink:hover, .navLink:focus {
-  color: var(--cyber-blue);
-  background: linear-gradient(90deg, var(--cyber-gray) 0%, var(--cyber-blue) 100%);
-  border-color: var(--cyber-white);
-  box-shadow: 0 0 24px var(--cyber-blue), 0 0 32px var(--cyber-blue-dark);
-  text-shadow: 0 0 12px var(--cyber-blue);
+  color: var(--cyber-white);
+  background: linear-gradient(90deg, #66e0ff 0%, var(--cyber-blue) 100%);
+  border-color: #66e0ff;
+  box-shadow: 0 0 24px #66e0ff, 0 0 32px var(--cyber-blue);
+  text-shadow: 0 0 12px #66e0ff;
 }
 
 .socialButtons {
@@ -1006,6 +1006,10 @@
     font-size: 0.95rem;
     padding: 0.2rem 0.5rem;
   }
+}
+
+.main, .heroTitle, .heroSubtitle, .heroTagline, .aboutText, .experienceCard, .projectTitle, .projectDesc, .skillsList, .contactText, .ctaButton, .detailsBox, .navLink, .navLogo, .titulo {
+  color: var(--cyber-white) !important;
 }
 
 
