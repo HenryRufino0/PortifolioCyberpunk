@@ -1088,12 +1088,12 @@
     width: 48vw !important;
     max-width: 160px !important;
     height: auto !important;
-    margin: 5.0rem auto 0.9rem auto !important;
+    margin: 3.5rem auto 0.7rem auto !important;
     display: block !important;
   }
   .heroTextBlock {
     max-width: 95vw !important;
-    margin: 2.0rem auto !important;
+    margin: 2.5rem auto !important;
     text-align: center !important;
     display: flex !important;
     flex-direction: column !important;
