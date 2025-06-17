@@ -977,25 +977,34 @@
   }
   .navBar {
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     justify-content: center;
-    padding: 0.7rem 1vw;
+    padding: 0.5rem 0.5rem 1.2rem 0.5rem;
     border-radius: 0 0 18px 18px;
-    gap: 0.5rem;
+    gap: 0.7rem;
+    min-width: 0;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: auto;
   }
   .navLogo {
-    font-size: 1.4rem;
-    margin-bottom: 0.3rem;
+    font-size: 1.3rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+    width: 100%;
   }
   .navLinks {
     flex-direction: column;
-    gap: 0.7rem;
-    align-items: stretch;
+    gap: 0.5rem;
+    align-items: center;
+    width: 100%;
   }
   .navLink {
     font-size: 1rem;
     padding: 0.5rem 1.2rem;
     border-radius: 8px;
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -1028,18 +1037,28 @@
   .navBar {
     flex-direction: column;
     align-items: center;
-    padding: 0.5rem 0.2rem;
+    padding: 0.3rem 0.1rem 0.7rem 0.1rem;
     gap: 0.2rem;
-  }
-  .navLinks {
-    gap: 0.5rem;
+    min-width: 0;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: auto;
   }
   .navLogo {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+    text-align: center;
+    width: 100%;
+  }
+  .navLinks {
+    gap: 0.3rem;
+    width: 100%;
   }
   .navLink {
     font-size: 0.95rem;
     padding: 0.2rem 0.5rem;
+    width: 100%;
+    text-align: center;
   }
 }
 
