@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700;900&display=swap');
 
 :root {
-  --cyber-yellow: #ffe600;
-  --cyber-cyan: #00fff7;
-  --cyber-blue: #0096c7;
+  --cyber-blue: #00bfff;
+  --cyber-blue-dark: #005577;
   --cyber-gray: #23272f;
-  --cyber-black: #111217;
-  --cyber-dark: #181a1f;
+  --cyber-black: #0a0a12;
+  --cyber-dark: #18182a;
   --cyber-white: #f4faff;
-  --cyber-neon-glow: 0 0 10px var(--cyber-cyan),
-                    0 0 20px var(--cyber-yellow),
-                    0 0 30px var(--cyber-blue);
+  --cyber-neon-glow: 0 0 10px var(--cyber-blue),
+                    0 0 20px var(--cyber-blue-dark),
+                    0 0 30px var(--cyber-gray);
 }
 
 * {
@@ -31,19 +30,19 @@ body {
 
 @keyframes neonGlow {
   0% {
-    text-shadow: 0 0 7px var(--cyber-cyan),
-                 0 0 10px var(--cyber-yellow),
-                 0 0 21px var(--cyber-blue);
+    text-shadow: 0 0 7px var(--cyber-blue),
+                 0 0 10px var(--cyber-blue-dark),
+                 0 0 21px var(--cyber-gray);
   }
   50% {
-    text-shadow: 0 0 7px var(--cyber-yellow),
-                 0 0 10px var(--cyber-cyan),
+    text-shadow: 0 0 7px var(--cyber-blue-dark),
+                 0 0 10px var(--cyber-gray),
                  0 0 21px var(--cyber-blue);
   }
   100% {
-    text-shadow: 0 0 7px var(--cyber-cyan),
-                 0 0 10px var(--cyber-yellow),
-                 0 0 21px var(--cyber-blue);
+    text-shadow: 0 0 7px var(--cyber-blue),
+                 0 0 10px var(--cyber-blue-dark),
+                 0 0 21px var(--cyber-gray);
   }
 }
 
