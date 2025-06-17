@@ -1026,7 +1026,7 @@
   }
 }
 
-.main, .heroTitle, .heroSubtitle, .heroTagline, .aboutText, .experienceCard, .projectTitle, .projectDesc, .skillsList, .contactText, .ctaButton, .detailsBox, .navLink, .navLogo, .titulo {
+.main, .heroTitle, .heroSubtitle, .heroTagline, .aboutText, .experienceCard, .projectTitle, .projectDesc, .skillsList, .contactText, .ctaButton, .detailsBox, .navLogo, .titulo {
   color: var(--cyber-white) !important;
 }
 
