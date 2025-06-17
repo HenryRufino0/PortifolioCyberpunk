@@ -1062,6 +1062,20 @@
   color: #fff;
 }
 
+.contactForm .ctaButton {
+  background: #ffe600;
+  color: #111217;
+  border: 3px solid #ffe600;
+  box-shadow: 0 0 8px #ffe60044;
+  transition: background 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+.contactForm .ctaButton:hover, .contactForm .ctaButton:focus {
+  background: #111217;
+  color: #fff;
+  border-color: #ffe600;
+  box-shadow: 0 0 18px #ffe600, 0 0 8px #ffe600;
+}
+
 
 
 
