@@ -29,7 +29,11 @@ export default function Home() {
   }, [dark]);
 
   const scrollToSection = (id: keyof typeof sectionRefs) => {
-    sectionRefs[id]?.current?.scrollIntoView({ behavior: 'smooth' });
+    const ref = sectionRefs[id]?.current;
+    if (ref) {
+      const y = ref.getBoundingClientRect().top + window.pageYOffset - 80; // offset para navbar
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
   };
 
   return (
