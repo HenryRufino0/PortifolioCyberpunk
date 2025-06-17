@@ -718,19 +718,22 @@
 
 .navBar {
   position: fixed;
-  top: 2rem;
-  right: 2rem;
-  left: unset;
-  width: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: auto;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 1.5rem;
-  padding: 1.5rem 2.5rem;
-  background: linear-gradient(135deg, rgba(0,255,247,0.18) 0%, rgba(255,0,234,0.18) 100%);
-  border-radius: 24px;
-  border: 2px solid var(--cyber-blue);
-  box-shadow: 0 0 32px 8px var(--cyber-pink), 0 0 8px 2px var(--cyber-blue);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.2rem 3vw;
+  background: linear-gradient(90deg, rgba(0,255,247,0.18) 0%, rgba(255,0,234,0.18) 100%);
+  border-radius: 0 0 24px 24px;
+  border: none;
+  border-bottom: 2px solid var(--cyber-blue);
+  box-shadow: 0 4px 32px 0 var(--cyber-pink), 0 2px 8px 0 var(--cyber-blue);
   z-index: 1000;
   backdrop-filter: blur(18px);
   animation: neonGlow 2s infinite;
@@ -743,15 +746,15 @@
   letter-spacing: 0.18em;
   text-shadow: 0 0 18px var(--cyber-yellow), 0 0 40px var(--cyber-yellow);
   font-family: 'Orbitron', 'Arial', sans-serif;
-  margin-bottom: 1.2rem;
-  align-self: flex-end;
+  margin-bottom: 0;
+  align-self: center;
 }
 
 .navLinks {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1.2rem;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .navLink {
@@ -938,17 +941,21 @@
     font-size: 2.2rem;
   }
   .navBar {
-    top: 1rem;
-    right: 1rem;
-    padding: 1rem 1.2rem;
-    border-radius: 18px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0.7rem 1vw;
+    border-radius: 0 0 18px 18px;
+    gap: 0.5rem;
   }
   .navLogo {
     font-size: 1.4rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.3rem;
   }
   .navLinks {
+    flex-direction: column;
     gap: 0.7rem;
+    align-items: stretch;
   }
   .navLink {
     font-size: 1rem;
