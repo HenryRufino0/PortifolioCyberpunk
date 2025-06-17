@@ -1,8 +1,5 @@
 .projetos {
   padding: 6rem 2rem;
-  opacity: 0;
-  transform: translateY(40px);
-  transition: all 0.8s ease;
   text-align: center;
 }
 
