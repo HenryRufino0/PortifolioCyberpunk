@@ -56,8 +56,8 @@ export default function Home() {
               </h1>
               <h2 className={styles.heroSubtitle}>Engenheiro de Software & Desenvolvedor</h2>
               <p className={styles.heroTagline}>
-                Desenvolvedor Back-End e Front-End com experiência em Python, React, SQL, PHP, JavaScript, DevOps, técnicas de Machine Learning <br />
-                e foco total em UX moderno e automações inteligentes.
+                Desenvolvedor Back-End e Front-End com experiência em Python, React, SQL, PHP, JavaScript, DevOps, <br />
+                técnicas de Machine Learning e foco total em UX moderno e automações inteligentes.
               </p>
               <div className={styles.socialButtons}>
                 <a href="https://www.linkedin.com/in/henryrufino/" target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>
@@ -194,14 +194,17 @@ export default function Home() {
             <li>Power BI</li>
             <li>DAX</li>
             <li>Git</li>
+            <li>Microsoft Office</li>
             <li>Excel</li>
             <li>React</li>
-            <li>Next.JS</li>
+            <li>Next.js</li>
             <li>Django</li>
             <li>APIs REST</li>
             <li>AWS EC2</li>
             <li>Scrum</li>
             <li>Figma</li>
+            <li>ML</li>
+
           </ul>
         </section>
 
