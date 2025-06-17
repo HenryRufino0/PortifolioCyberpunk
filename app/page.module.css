@@ -724,23 +724,41 @@
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  padding: 1.2rem 3vw;
-  background: linear-gradient(90deg, rgba(0,191,255,0.18) 0%, rgba(35,39,47,0.18) 100%);
-  border-radius: 0 0 24px 24px;
+  padding: 1.2rem 3vw 2.5rem 3vw;
+  background: #ffe600;
+  border-radius: 0;
   border: none;
-  border-bottom: 2px solid var(--cyber-blue);
-  box-shadow: 0 4px 32px 0 var(--cyber-blue-dark), 0 2px 8px 0 var(--cyber-gray);
+  box-shadow: 0 4px 32px 0 #ffe60044;
   z-index: 1000;
-  backdrop-filter: blur(18px);
-  animation: neonGlow 2s infinite;
+  color: #111217;
+  backdrop-filter: none;
+  animation: none;
+  overflow: visible;
+}
+
+.navBar::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 32px;
+  width: 100%;
+  background: transparent;
+  z-index: 2;
+  pointer-events: none;
+  /* SVG serrilhado como background-image */
+  background-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="32" viewBox="0 0 1000 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0 H1000 V16 L980 32 L960 16 L940 32 L920 16 L900 32 L880 16 L860 32 L840 16 L820 32 L800 16 L780 32 L760 16 L740 32 L720 16 L700 32 L680 16 L660 32 L640 16 L620 32 L600 16 L580 32 L560 16 L540 32 L520 16 L500 32 L480 16 L460 32 L440 16 L420 32 L400 16 L380 32 L360 16 L340 32 L320 16 L300 32 L280 16 L260 32 L240 16 L220 32 L200 16 L180 32 L160 16 L140 32 L120 16 L100 32 L80 16 L60 32 L40 16 L20 32 L0 16 Z" fill="%23ffe600"/></svg>');
+  background-repeat: repeat-x;
+  background-size: 1000px 32px;
 }
 
 .navLogo {
   font-size: 2.2rem;
   font-weight: 900;
-  color: var(--cyber-white);
+  color: #111217;
   letter-spacing: 0.18em;
-  text-shadow: 0 0 18px var(--cyber-blue), 0 0 40px var(--cyber-blue-dark);
+  text-shadow: 0 0 18px #ffe600, 0 0 40px #ffe600;
   font-family: 'Orbitron', 'Arial', sans-serif;
   margin-bottom: 0;
   align-self: center;
@@ -754,27 +772,26 @@
 }
 
 .navLink {
-  color: var(--cyber-white);
-  background: linear-gradient(90deg, var(--cyber-blue) 0%, var(--cyber-gray) 100%);
-  border: 2px solid var(--cyber-blue-dark);
+  color: #111217;
+  background: #fff200;
+  border: none;
   text-decoration: none;
   font-weight: 700;
   font-size: 1.1rem;
   padding: 0.7rem 2.2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 12px var(--cyber-blue), 0 0 18px var(--cyber-blue-dark);
-  transition: all 0.3s cubic-bezier(.4,2,.6,1);
+  border-radius: 4px;
+  box-shadow: 0 0 8px #ffe60044;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
   position: relative;
   cursor: pointer;
   outline: none;
 }
 
 .navLink:hover, .navLink:focus {
-  color: var(--cyber-white);
-  background: linear-gradient(90deg, #66e0ff 0%, var(--cyber-blue) 100%);
-  border-color: #66e0ff;
-  box-shadow: 0 0 24px #66e0ff, 0 0 32px var(--cyber-blue);
-  text-shadow: 0 0 12px #66e0ff;
+  color: #ffe600;
+  background: #111217;
+  box-shadow: 0 0 16px #ffe600, 0 0 32px #ffe600;
+  text-shadow: 0 0 8px #ffe600;
 }
 
 .socialButtons {
@@ -1006,6 +1023,30 @@
 
 .main, .heroTitle, .heroSubtitle, .heroTagline, .aboutText, .experienceCard, .projectTitle, .projectDesc, .skillsList, .contactText, .ctaButton, .detailsBox, .navLink, .navLogo, .titulo {
   color: var(--cyber-white) !important;
+}
+
+/* Animação de brilho nas caixas */
+@keyframes boxGlow {
+  0% { box-shadow: 0 0 8px #00bfff, 0 0 0 #fff; }
+  50% { box-shadow: 0 0 32px #ffe600, 0 0 16px #fff200; }
+  100% { box-shadow: 0 0 8px #00bfff, 0 0 0 #fff; }
+}
+.card, .experienceCard, .detailsBox {
+  animation: boxGlow 2.5s infinite;
+}
+
+.card, .experienceCard, .detailsBox {
+  color: #ffe600;
+  background: #111217;
+}
+
+.card h2, .experienceCard h3, .detailsBox strong {
+  color: #ffe600;
+  text-shadow: 0 0 8px #ffe600;
+}
+
+.card p, .experienceCard p, .detailsBox, .detailsBox li {
+  color: #fff;
 }
 
 
