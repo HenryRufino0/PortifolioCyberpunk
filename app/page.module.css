@@ -639,11 +639,11 @@
   transition: background 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
 }
 .skillsList li:hover {
-  background: linear-gradient(90deg, #66e0ff 0%, var(--cyber-blue) 100%);
-  color: var(--cyber-white);
-  border-color: #66e0ff;
-  box-shadow: 0 0 18px #66e0ff, 0 0 8px var(--cyber-blue);
-  text-shadow: 0 0 8px #66e0ff;
+  background: #ffe600;
+  color: #111217;
+  border-color: #ffe600;
+  box-shadow: 0 0 18px #ffe600, 0 0 8px #ffe600;
+  text-shadow: none;
 }
 
 /***** CONTACT SECTION *****/
