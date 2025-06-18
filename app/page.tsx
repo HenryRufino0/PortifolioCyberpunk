@@ -124,10 +124,10 @@ export default function Home() {
                 <div className={styles.detailsBox}>
                   <strong>Principais atividades:</strong>
                   <ul>
-                    <li>Desenvolvimento de sites e sistemas sob demanda</li>
+                    <li>Desenvolvimento Web e sistemas sob demanda</li>
                     <li>Automação de processos para empresas</li>
                     <li>Consultoria em tecnologia e UX</li>
-                    <li>Projetos com React, Node.js, Python, APIs REST</li>
+                    <li>Projetos com React, Node.js, Python, JavaScript, APIs, SQL</li>
                   </ul>
                 </div>
               )}
@@ -141,14 +141,18 @@ export default function Home() {
               <h3>
                 Connect 5G <span className={styles.experienceDate}>(2022 - 2023)</span>
               </h3>
-              <p>Desenvolvedor Back-End e Front-End, foco em APIs, integrações e automações.</p>
+              <p>Estágio em Desenvolvimento de Software</p>
               {openExperience === 'connect5g' && (
                 <div className={styles.detailsBox}>
                   <strong>Principais atividades:</strong>
                   <ul>
+                    <li>Dsenvolvimento Back-End e Front-End</li>
                     <li>Desenvolvimento de APIs REST e integrações entre sistemas</li>
                     <li>Implementação de automações para processos internos</li>
-                    <li>Trabalho com JavaScript, Node.js, SQL, Python</li>
+                    <li>Trabalho com JavaScript, SQL, Python e DAX</li>
+                    <li>Desenvolvimento de dashboards para análise de dados em Power BI</li>
+                    <li>Tratamento de base de dados com SQL</li>
+                    <li>Análise de dados, contrução de relatórios e apresentação ao cliente</li>
                   </ul>
                 </div>
               )}
@@ -162,15 +166,19 @@ export default function Home() {
               <h3>
                 SoluCX <span className={styles.experienceDate}>(2021 - 2022)</span>
               </h3>
-              <p>Desenvolvimento de dashboards, integrações e suporte a sistemas internos.</p>
+              <p>Estágio em Machine Learning</p>
               {openExperience === 'solucx' && (
                 <div className={styles.detailsBox}>
                   <strong>Principais atividades:</strong>
                   <ul>
-                    <li>Criação de dashboards para análise de dados</li>
-                    <li>Integração de sistemas internos e externos</li>
+                    <li>Desenvolvimento Back-End em Python</li>
+                    <li>Automação de tarefas por meio de scripts</li>
+                    <li>Criação de dashboards para análise de dados em Power BI</li>
+                    <li>Tratamento de base de dados com SQL</li>
                     <li>Suporte técnico e manutenção de sistemas</li>
-                    <li>Projetos com SQL, Power BI, Python</li>
+                    <li>Projetos com SQL, Power BI, Excel Python</li>
+                    <li>Treinamento do ML (Algoritmo interno da empresa)</li>
+                    <li>Apresentação de Workshops para treinamento interno da empresa</li>
                   </ul>
                 </div>
               )}
@@ -206,11 +214,16 @@ export default function Home() {
             <li>React</li>
             <li>Next.JS</li>
             <li>Django</li>
+            <li>Data Structures</li>
             <li>APIs REST</li>
             <li>AWS EC2</li>
             <li>Scrum</li>
             <li>Figma</li>
-            <li>ML</li>
+            <li>Machine Learning</li>
+            <li>AI</li>
+            <li>Linux</li>
+            <li>Windows</li>
+            <li>Wondershare Filmora</li>
           </ul>
         </section>
 
