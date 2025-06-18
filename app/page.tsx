@@ -117,7 +117,7 @@ export default function Home() {
               onClick={() => setOpenExperience(openExperience === 'freelancer' ? null : 'freelancer')}
             >
               <h3>
-                Freelancer <span className={styles.experienceDate}>(2023 - atual)</span>
+                Autônomo <span className={styles.experienceDate}>(2023 - atual)</span>
               </h3>
               <p>Desenvolvimento de soluções web, automações e consultoria para clientes diversos.</p>
               {openExperience === 'freelancer' && (
