@@ -10,7 +10,7 @@ const projetos = [
   {
     titulo: 'Este Portifólio',
     descricao: 'Portifolio online',
-    imagem: '/projetos-images/portifolio.png',
+    imagem: '/projetos-images/CyberP.png',
     link:'https://portifolio-cyberpunk.vercel.app'
   },
 
