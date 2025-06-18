@@ -58,7 +58,7 @@ export default function Home() {
               <h1 className={`${styles.heroTitle} neon-text glitch`} data-text="HENRY LÍRIO RUFINO">
                 HENRY RUFINO
               </h1>
-              <h2 className={styles.heroSubtitle}>Engenheiro de Software & Cyberpunk Developer</h2>
+              <h2 className={styles.heroSubtitle}>Engenheiro da Computação e Desenvolvedor de Software</h2>
               <p className={styles.heroTagline}>
                 Desenvolvedor Back-End e Front-End com experiência em Python, React, SQL, PHP, JavaScript, DevOps, <br />
                 técnicas de Machine Learning e foco total em UX moderno e automações inteligentes.
@@ -262,7 +262,7 @@ export default function Home() {
 
       {/* Footer */}
     <footer className={styles.footer}>
-      <p>© {new Date().getFullYear()} Henry Lírio Rufino. Todos os direitos reservados.</p>
+      <p>© {new Date().getFullYear()} Henry Lírio Rufino</p>
       <p>Portifolio desenvolvido usando React + Next.js</p>
     </footer>
     </>
