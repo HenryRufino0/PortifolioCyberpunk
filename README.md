@@ -2,9 +2,6 @@
 
 ![image](https://github.com/user-attachments/assets/a10637f0-f0cc-440c-9566-2632ed2e37e3)
 
-
-
-
 Um projeto moderno e dinâmico desenvolvido com React e Next.js, apresentando um portfólio pessoal com temática futurista. Ideal para exibir projetos, conquistas e informações profissionais de maneira interativa e visualmente atraente.
 
 ## Tecnologias Utilizadas
@@ -14,7 +11,6 @@ Um projeto moderno e dinâmico desenvolvido com React e Next.js, apresentando um
 * **CSS Modules**: Estilos encapsulados, garantindo organização e facilidade de manutenção.
 * **JavaScript**: Linguagem principal para lógica e interação do usuário.
 * **Vercel**: Plataforma de hospedagem e deploy.
-
 
 
 ![image](https://github.com/user-attachments/assets/9d0e0593-da43-4c11-a8b4-c115bdae8208)
@@ -80,8 +76,5 @@ Acesse o site em `http://localhost:3000`.
 ## Deploy
 
 O projeto está hospedado no **Vercel**. Cada alteração feita e submetida ao GitHub é automaticamente implantada.
-
-
----
 
 Desenvolvido por  **Henry Rufino** 🚀

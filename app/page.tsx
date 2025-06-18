@@ -97,7 +97,7 @@ export default function Home() {
               <h2 className={styles.titulo}>Sobre Mim</h2>
               <p>
                 Sou apaixonado por tecnologia desde cedo. Me especializei em desenvolvimento Back-End e Front-End, com foco em soluções que otimizam tempo e melhoram a experiência do usuário. Trabalhei com automações, APIs, visualizações de dados e tenho forte atuação em backend com Python e frontend com JavaScript.<br /><br />
-                Também atuo com DevOps, banco de dados e metodologias ágeis. Além ter conehcimento e aplicação em técnincas de Machine Learning. Gosto de aprender e aplicar tecnologias novas, sempre buscando eficiência e resultados
+                Também atuo com DevOps, banco de dados e metodologias ágeis. Além ter conhecimento e aplicação em técnincas de Machine Learning. Gosto de aprender e aplicar tecnologias novas, sempre buscando eficiência e resultados
               </p>
             </div>
             <div className={styles.aboutPhoto}>
@@ -146,13 +146,13 @@ export default function Home() {
                 <div className={styles.detailsBox}>
                   <strong>Principais atividades:</strong>
                   <ul>
-                    <li>Dsenvolvimento Back-End e Front-End</li>
+                    <li>Desenvolvimento Back-End e Front-End</li>
                     <li>Desenvolvimento de APIs REST e integrações entre sistemas</li>
                     <li>Implementação de automações para processos internos</li>
                     <li>Trabalho com JavaScript, SQL, Python e DAX</li>
                     <li>Desenvolvimento de dashboards para análise de dados em Power BI</li>
                     <li>Tratamento de base de dados com SQL</li>
-                    <li>Análise de dados, contrução de relatórios e apresentação ao cliente</li>
+                    <li>Análise de dados, construção de relatórios e apresentação ao cliente</li>
                   </ul>
                 </div>
               )}
