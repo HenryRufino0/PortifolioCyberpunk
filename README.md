@@ -81,9 +81,6 @@ Acesse o site em `http://localhost:3000`.
 
 O projeto está hospedado no **Vercel**. Cada alteração feita e submetida ao GitHub é automaticamente implantada.
 
-## Licença
-
-Este projeto é licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
