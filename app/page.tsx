@@ -101,7 +101,7 @@ export default function Home() {
               </p>
             </div>
             <div className={styles.aboutPhoto}>
-              <Image src="/cpu.png" alt="Henry Rufino" width={450} height={250} className={styles.imgAnimada} />
+              <Image src="/cpu2.png" alt="Henry Rufino" width={450} height={250} className={styles.imgAnimada} />
             </div>
           </div>
         </section>
