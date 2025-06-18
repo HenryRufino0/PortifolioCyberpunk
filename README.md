@@ -1,6 +1,7 @@
 # Meu Portifólio Online
 
-![image](https://github.com/user-attachments/assets/bd24f7d5-762c-4df7-8ba5-be95481d13e9)
+![image](https://github.com/user-attachments/assets/a10637f0-f0cc-440c-9566-2632ed2e37e3)
+
 
 
 
@@ -16,14 +17,11 @@ Um projeto moderno e dinâmico desenvolvido com React e Next.js, apresentando um
 
 
 
-![image](https://github.com/user-attachments/assets/b8e3eb93-6319-4f73-8448-00dace2f04a6)
+![image](https://github.com/user-attachments/assets/9d0e0593-da43-4c11-a8b4-c115bdae8208)
 
-![image](https://github.com/user-attachments/assets/5cee5f18-9ce0-468c-b02b-7e26332d1e7a)
+![image](https://github.com/user-attachments/assets/623b00d6-99af-4e6a-bc9c-1d8af899603f)
 
-![image](https://github.com/user-attachments/assets/d91b2b74-24e1-4455-8618-f095d522b408)
-
-![image](https://github.com/user-attachments/assets/d6c03b45-0d01-4fd9-a845-46f0be119377)
-
+![image](https://github.com/user-attachments/assets/b2d9aa4a-6e95-489f-a0c3-1be2a4eff4b9)
 
 
 ## Funcionalidades
